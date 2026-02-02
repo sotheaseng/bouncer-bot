@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2qpnjheg2xot"]
+
+[ext_resource type="Script" uid="uid://dbj5rk08mr8t1" path="res://bouncer_bot.gd" id="1_f8b30"]
+[ext_resource type="PackedScene" uid="uid://bgcxx1qo04om1" path="res://character.tscn" id="2_f8b30"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_f8b30")
+
+[node name="Character" parent="." instance=ExtResource("2_f8b30")]
+visible = false
+
+[node name="AllowButton" type="Button" parent="."]
+offset_left = 40.0
+offset_top = 40.0
+offset_right = 240.0
+offset_bottom = 100.0
+text = "ALLOW"
+
+[node name="BlockButton" type="Button" parent="."]
+offset_left = 300.0
+offset_top = 40.0
+offset_right = 500.0
+offset_bottom = 100.0
+text = "REJECT"
+
+[node name="RuleLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="FeedbackLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="LivesLabel" type="Label" parent="."]
+offset_left = 40.0
+offset_top = 600.0
+offset_right = 80.0
+offset_bottom = 623.0
+text = "Lives: 3"
+
+[connection signal="pressed" from="AllowButton" to="." method="_on_allow_button_pressed"]
+[connection signal="pressed" from="BlockButton" to="." method="_on_block_button_pressed"]

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bgcxx1qo04om1"]
+
+[ext_resource type="Script" uid="uid://cpandy24b2rc8" path="res://character.gd" id="1_glpr6"]
+
+[node name="Character" type="ColorRect"]
+offset_left = 1200.0
+offset_top = 300.0
+offset_right = 1240.0
+offset_bottom = 340.0
+script = ExtResource("1_glpr6")
