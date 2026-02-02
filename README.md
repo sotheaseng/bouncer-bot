@@ -107,6 +107,9 @@ Prepare a clear and realistic plan for expanding the game without increasing tec
 ## 👤 Credits
 Developed by: **Sothea Seng**  
 Engine: **Godot 4**
+Maps: https://sirnosir.itch.io/pixelwhale-sf
+Character: https://level-launch16.itch.io/tiny-people-1
+Sound: https://bit-by-bit-sound.itch.io/16-bit-starter-pack
 
 ---
 
