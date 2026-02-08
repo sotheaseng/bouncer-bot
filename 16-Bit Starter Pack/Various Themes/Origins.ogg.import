@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b3qfa1i7bscuv"
+path="res://.godot/imported/Origins.ogg-9e1ff16fe2a33de8a1129136367a863b.oggvorbisstr"
+
+[deps]
+
+source_file="res://16-Bit Starter Pack/Various Themes/Origins.ogg"
+dest_files=["res://.godot/imported/Origins.ogg-9e1ff16fe2a33de8a1129136367a863b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

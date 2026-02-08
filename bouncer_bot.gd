@@ -3,7 +3,7 @@ extends Node2D
 # ==================================================
 # CONFIG
 # ==================================================
-var character_scene: PackedScene = preload("res://Character.tscn")
+var character_scene: PackedScene = preload("res://character.tscn")
 
 @export var entry_x: float = -120.0
 @export var queue_start_x: float = 900.0

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://olafqx3wk3jd"
+path="res://.godot/imported/Battle Mage.ogg-095c2f4a32034f8044736d9aa4056579.oggvorbisstr"
+
+[deps]
+
+source_file="res://16-Bit Starter Pack/Battle/Battle Mage.ogg"
+dest_files=["res://.godot/imported/Battle Mage.ogg-095c2f4a32034f8044736d9aa4056579.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

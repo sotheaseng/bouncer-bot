@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c52nao5o10h7m"
+path="res://.godot/imported/I've Got Your Back! (Full).ogg-8748050c5c77858091bb171fd7fc27b9.oggvorbisstr"
+
+[deps]
+
+source_file="res://16-Bit Starter Pack/Battle/I've Got Your Back! (Full).ogg"
+dest_files=["res://.godot/imported/I've Got Your Back! (Full).ogg-8748050c5c77858091bb171fd7fc27b9.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

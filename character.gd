@@ -1,22 +1,17 @@
-extends ColorRect
+extends Node2D
 
-# -------------------------
-# CHARACTER DATA
-# -------------------------
+@onready var sprite: Sprite2D = $Sprite2D
+
 var traits := {
 	"color": "red"
 }
 
-# -------------------------
-# VISUAL SETUP
-# -------------------------
 func _ready() -> void:
 	apply_traits()
-
 
 func apply_traits() -> void:
 	match traits["color"]:
 		"red":
-			color = Color.RED
+			sprite.modulate = Color.RED
 		"blue":
-			color = Color.BLUE
+			sprite.modulate = Color.BLUE

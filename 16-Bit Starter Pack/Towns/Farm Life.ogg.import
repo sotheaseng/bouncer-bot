@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://beth64hgnp7er"
+path="res://.godot/imported/Farm Life.ogg-b2a17e6c90b9ac514f4be69b307e730a.oggvorbisstr"
+
+[deps]
+
+source_file="res://16-Bit Starter Pack/Towns/Farm Life.ogg"
+dest_files=["res://.godot/imported/Farm Life.ogg-b2a17e6c90b9ac514f4be69b307e730a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

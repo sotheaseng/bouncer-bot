@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dsvnjtuvhh6sm"
+path="res://.godot/imported/Journey Across the Blue.ogg-476bb743e0c9bbee01af1ae92813f2f8.oggvorbisstr"
+
+[deps]
+
+source_file="res://16-Bit Starter Pack/Overworld/Journey Across the Blue.ogg"
+dest_files=["res://.godot/imported/Journey Across the Blue.ogg-476bb743e0c9bbee01af1ae92813f2f8.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

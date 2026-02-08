@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ce33rsspd7h2o"
+path="res://.godot/imported/We're Bird People Now.ogg-e4f54ec2c1bc518ff2142be0d8b6097a.oggvorbisstr"
+
+[deps]
+
+source_file="res://16-Bit Starter Pack/Overworld/We're Bird People Now.ogg"
+dest_files=["res://.godot/imported/We're Bird People Now.ogg-e4f54ec2c1bc518ff2142be0d8b6097a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

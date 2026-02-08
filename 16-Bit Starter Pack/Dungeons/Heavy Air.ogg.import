@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dlgh6csgq7jen"
+path="res://.godot/imported/Heavy Air.ogg-a1960398707147a13abc0e2e362e15a9.oggvorbisstr"
+
+[deps]
+
+source_file="res://16-Bit Starter Pack/Dungeons/Heavy Air.ogg"
+dest_files=["res://.godot/imported/Heavy Air.ogg-a1960398707147a13abc0e2e362e15a9.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

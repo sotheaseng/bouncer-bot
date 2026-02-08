@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://vfi121o640q7"
+path="res://.godot/imported/To Suffer a Loss (Game Over).ogg-fe3089db4a17efe8e5667eca42103b7b.oggvorbisstr"
+
+[deps]
+
+source_file="res://16-Bit Starter Pack/Various Themes/To Suffer a Loss (Game Over).ogg"
+dest_files=["res://.godot/imported/To Suffer a Loss (Game Over).ogg-fe3089db4a17efe8e5667eca42103b7b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

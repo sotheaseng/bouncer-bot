@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cmm7rsxy2muy"
+path="res://.godot/imported/World Travelers.ogg-eb5b9049aa1ba1f825fffe8780ee8cca.oggvorbisstr"
+
+[deps]
+
+source_file="res://16-Bit Starter Pack/Overworld/World Travelers.ogg"
+dest_files=["res://.godot/imported/World Travelers.ogg-eb5b9049aa1ba1f825fffe8780ee8cca.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

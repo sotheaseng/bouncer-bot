@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bgt2opb6s36sa"
+path="res://.godot/imported/Remnants of What Once Was.ogg-a7a971a19b98654e00c8300f0da0f875.oggvorbisstr"
+
+[deps]
+
+source_file="res://16-Bit Starter Pack/Towns/Remnants of What Once Was.ogg"
+dest_files=["res://.godot/imported/Remnants of What Once Was.ogg-a7a971a19b98654e00c8300f0da0f875.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dh0otg840ey83"
+path="res://.godot/imported/Victorious.ogg-273524d2965c5ccaa40c25da26168677.oggvorbisstr"
+
+[deps]
+
+source_file="res://16-Bit Starter Pack/Various Themes/Victorious.ogg"
+dest_files=["res://.godot/imported/Victorious.ogg-273524d2965c5ccaa40c25da26168677.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

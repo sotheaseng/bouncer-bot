@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c62q026hmptl5"
+path="res://.godot/imported/Outside the Colosseum.ogg-2fd4f703a37cbbbe204167c8af0a3f7e.oggvorbisstr"
+
+[deps]
+
+source_file="res://16-Bit Starter Pack/Various Themes/Outside the Colosseum.ogg"
+dest_files=["res://.godot/imported/Outside the Colosseum.ogg-2fd4f703a37cbbbe204167c8af0a3f7e.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
