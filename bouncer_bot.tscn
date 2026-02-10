@@ -1,26 +1,37 @@
-[gd_scene load_steps=3 format=3 uid="uid://b2qpnjheg2xot"]
+[gd_scene load_steps=4 format=3 uid="uid://b2qpnjheg2xot"]
 
 [ext_resource type="Script" uid="uid://dbj5rk08mr8t1" path="res://bouncer_bot.gd" id="1_f8b30"]
 [ext_resource type="PackedScene" uid="uid://bgcxx1qo04om1" path="res://character.tscn" id="2_f8b30"]
+[ext_resource type="Texture2D" uid="uid://dlnmjdvonu3ji" path="res://Cyberpunk platformer - World starter/background/parallax_background_layer_6.png" id="2_r2k5v"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_f8b30")
 
+[node name="Background2" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(499, 950)
+scale = Vector2(6.705124, 6.8159723)
+texture = ExtResource("2_r2k5v")
+
 [node name="Character" parent="." instance=ExtResource("2_f8b30")]
 visible = false
+position = Vector2(801.48, 488.4)
 
 [node name="AllowButton" type="Button" parent="."]
-offset_left = 40.0
-offset_top = 40.0
-offset_right = 240.0
-offset_bottom = 100.0
+offset_left = 116.0
+offset_top = 1741.0
+offset_right = 316.0
+offset_bottom = 1801.0
+scale = Vector2(2, 2)
 text = "ALLOW"
 
 [node name="BlockButton" type="Button" parent="."]
-offset_left = 300.0
-offset_top = 40.0
-offset_right = 500.0
-offset_bottom = 100.0
+offset_left = 552.0
+offset_top = 1741.0
+offset_right = 752.0
+offset_bottom = 1801.0
+scale = Vector2(2, 2)
 text = "REJECT"
 
 [node name="RuleLabel" type="Label" parent="."]
@@ -32,10 +43,12 @@ offset_right = 40.0
 offset_bottom = 23.0
 
 [node name="LivesLabel" type="Label" parent="."]
-offset_left = 40.0
-offset_top = 600.0
-offset_right = 80.0
-offset_bottom = 623.0
+texture_filter = 1
+offset_left = 51.0
+offset_top = 59.0
+offset_right = 108.0
+offset_bottom = 82.0
+scale = Vector2(3.2, 3.2)
 text = "Lives: 3"
 
 [connection signal="pressed" from="AllowButton" to="." method="_on_allow_button_pressed"]
