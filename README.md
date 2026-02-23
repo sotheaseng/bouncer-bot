@@ -89,6 +89,12 @@ https://youtu.be/3LunDQ6l5RM
 
 ---
 
+## Feedback Form
+
+Feedback can be submitted through this Google Form
+
+https://forms.gle/DiS8xvcJ1S6BT6p1A
+
 ## 👤 Credits
 Developed by: **Sothea Seng**  
 Engine: **Godot 4**
