@@ -1,256 +1,109 @@
-
 # Bouncer Bot
 
-## 🎮 Project Overview
+---
 
-**Bouncer Bot** is a queue-based decision game built using **Godot 4**.
+## 🧪 v0.1.0 — Core Gameplay Alpha
 
-The player acts as a bouncer/security officer and must **ALLOW** or **REJECT** incoming characters while managing queue pressure, limited lives, and increasing difficulty.
+### Added
+- Allow / Reject decision system  
+- Automatic character spawning  
+- Horizontal queue system  
+- Smooth queue animation  
+- Lives system (3 lives)  
+- Level progression (25 characters per level)  
+- Difficulty scaling (spawn speed increases per level)  
+- Lose condition if queue exceeds 10 characters  
+- Game Over state (buttons disabled, spawning stops)  
 
-  
-
-The project follows an **iterative prototype-first approach**, focusing on gameplay mechanics before visuals, sound, and polish.
-
-  
+### Notes
+- Placeholder rectangle characters  
+- Focused on validating core gameplay loop  
 
 ---
 
-  
+## 🚀 v0.2.0 — Beta Update
 
-## 🧪 v0.1.0 — Core Gameplay Alpha (Week 1)
-
-  
-
-### ✅ Implemented
-
-- Allow / Reject decision system
-
-- Automatic character spawning
-
-- Queue system:
-
-- Characters enter from the left
-
-- Characters line up visually
-
-- Smooth queue animation
-
-- Lives system:
-
-- Incorrect decisions reduce lives
-
-- Game over at zero lives
-
-- Level system:
-
-- 25 characters per level
-
-- Levels increase difficulty
-
-- Difficulty scaling:
-
-- Spawn speed increases per level
-
-- Lose conditions:
-
-- Game over when lives reach zero
-
-- Instant loss if queue exceeds 10 characters
-
-- Game over state:
-
-- Buttons disabled
-
-- Spawning stops
-
-  
-
-### 🎮 Gameplay Notes
-
-- Player judges only the front character in the queue
-
-- Characters are removed after each decision
-
-- Gameplay pressure increases naturally through speed and queue size
-
-  
-
-### 🎨 Visuals
-
-- Placeholder rectangles used for characters
-
-- Visual simplicity used intentionally to validate mechanics
-
-  
-
-**Goal of Week 1:**
-
-Validate the complete gameplay loop and progression system.
-
-  
+This update transitions the project from prototype mechanics into a playable beta experience with improved visuals, clarity, and polish.
 
 ---
 
-  
+### 🎨 Visual Upgrades
+- Replaced placeholder rectangles with sprite-based characters  
+- Implemented character body, shirt, and pants system  
+- Added randomized clothing variations  
+- Converted queue layout from horizontal to vertical  
+- Improved character readability through scaling adjustments  
+- Added dynamic ground shadow under characters  
+- Enhanced UI with semi-transparent HUD panel  
+- Improved text layout and wrapping  
+
+---
+
+### 🦠 Infection System
+- Added red infection indicator system  
+- Random infection chance per character  
+- Clear visual red marker applied to clothing only  
+- Player must reject infected characters  
+
+---
+
+### 📈 Gameplay Improvements
+- Vertical queue positioning aligned with map layout  
+- Smooth animated repositioning when characters move  
+- Front-of-queue logic refined  
+- Improved level transition feedback  
+- Spawn rate balancing adjustments  
+
+---
+
+### 🔊 Audio
+- Integrated looping background music  
+- Audio system prepared for expansion (SFX ready)  
+
+---
+
+### 🛠 Technical Improvements
+- Cleaned node hierarchy and UI structure  
+- Improved label scaling and responsive layout  
+- Refactored queue management logic  
+- Strict typing adjustments to prevent runtime errors  
+- Export preparation for Android (APK support configured)  
+
+---
+
+## 🎯 Current Beta State
+- Fully playable gameplay loop  
+- Progressive difficulty scaling  
+- Visual clarity improvements  
+- Functional UI and HUD  
+- Balanced pressure curve  
+- Ready for further polish and feature expansion  
+
+---
 
 ## 🎞️ Gameplay Demo
 
-A test video of the current alpha build can be viewed here:
+A test video of the current beta build can be viewed here:
 
-https://youtu.be/HKaZn1ZmM-8
-
-  
+https://youtu.be/3LunDQ6l5RM
 
 ---
-
-  
-
-## Screenshots
-
-  
-
-![alt text](screenshots/image.png)
-
-  
-
-## 🧭 v0.2.0 — Planning & Pre-Production (Week 2)
-
-  
-
-### 📝 Planned Tasks
-
-- Finalise design direction for characters
-
-- Plan character traits and rule expansion
-
-- Plan visual style and map theme
-
-- Plan sound design (SFX and background audio)
-
-- Refine scope for beta development
-
-- Prepare asset pipeline and folder structure
-
-  
-
-### 🎯 Focus
-
-- No new features implemented
-
-- Design decisions documented
-
-- Scope locked for upcoming beta phase
-
-  
-
-**Goal of Week 2:**
-
-Prepare a clear and realistic plan for expanding the game without increasing technical risk.
-
-  
-
----
-
-  
-
-## 🧪 v0.3.0 — Beta Expansion (Week 3)
-
-  
-
-### 🔜 Planned Features
-
-- Replace placeholder rectangles with character sprites
-
-- Add visual character traits (e.g. hats, accessories)
-
-- Add a static background map/environment
-
-- Add sound effects:
-
-- Button clicks
-
-- Correct / wrong decision feedback
-
-- Improve UI layout and visual clarity
-
-  
-
----
-
-  
-
-## 🎨 v1.0.0 — Final Polish (Week 4)
-
-  
-
-### 🔜 Planned Features
-
-- Character animations
-
-- Level transition feedback
-
-- Background music
-
-- Restart and menu system
-
-- Scoring and combo mechanics
-
-- Final balancing and bug fixing
-
-  
-
----
-
-  
-
-## 📌 Development Philosophy
-
--  **Week 1:** Core mechanics & progression
-
--  **Week 2:** Planning & scope definition
-
--  **Week 3:** Visuals, characters, sound (Beta)
-
--  **Week 4:** Polish & final presentation
-
-  
-
----
-
-  
 
 ## 👤 Credits
-
-Developed by: **Sothea Seng**
-
+Developed by: **Sothea Seng**  
 Engine: **Godot 4**
 
-Maps: https://sirnosir.itch.io/pixelwhale-sf
-
-Character: https://level-launch16.itch.io/tiny-people-1
-
-Sound: https://bit-by-bit-sound.itch.io/16-bit-starter-pack
-
-  
+Maps: https://sirnosir.itch.io/pixelwhale-sf  
+Character: https://level-launch16.itch.io/tiny-people-1  
+Sound: https://bit-by-bit-sound.itch.io/16-bit-starter-pack  
 
 ---
 
-  
+## 🤖 AI Usage
 
-## AI Usage
-
-  
-
-### ChatGPT:
-
-"What does alpha version of a game usually contain?
-"How do I write a good README file that is easily understandable"
-  
-
-## 📝 Versioning
-
-This project uses semantic versioning:
-
--  `0.x.x` → Prototype / Alpha
-
--  `1.0.0` → Final release
+### ChatGPT
+- What does alpha version of a game usually contain?
+- How do I write a good README file that is easily understandable?
+- Debugging assistance for Godot scripting issues
+- UI layout and container configuration guidance
+- Exporting Godot project to Android (APK)
