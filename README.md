@@ -49,20 +49,20 @@ https://forms.gle/DiS8xvcJ1S6BT6p1A
 
 ## What I've Changed From the Feedback
 
-Player 1: queue speed is too slow in the beginning of the game
-What I've done: decrease spawing intervals even in the early stages of the game
+- Player 1: queue speed is too slow in the beginning of the game
+- What I've done: decrease spawing intervals even in the early stages of the game
 
-Player 2: i don't get enough information on how to play the game and i dont see the end goal
-What I've done: added more information boxes like level and health to give players more information and scores as a numerical value that players can use to compare between each other or themselves.
+- Player 2: i don't get enough information on how to play the game and i dont see the end goal
+- What I've done: added more information boxes like level and health to give players more information and scores as a numerical value that players can use to compare between each other or themselves.
 
 ---
 
 ## 👤 Credits
-Developed by: **Sothea Seng**  
-Engine: **Godot 4**
-Maps & Character: https://kenney.nl/assets/roguelike-modern-city
-Music: https://bit-by-bit-sound.itch.io/16-bit-starter-pack
-SFX: https://simon13666.itch.io/sound-starter-pack?download
+- Developed by: **Sothea Seng**  
+- Engine: **Godot 4**
+- Maps & Character: https://kenney.nl/assets/roguelike-modern-city
+- Music: https://bit-by-bit-sound.itch.io/16-bit-starter-pack
+- SFX: https://simon13666.itch.io/sound-starter-pack?download
 
 ---
 
