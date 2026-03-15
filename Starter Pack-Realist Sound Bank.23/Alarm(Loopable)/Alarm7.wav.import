@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cy13uteeemtht"
+path="res://.godot/imported/Alarm7.wav-5d2f67295c370cffd6db1fd72dde399a.sample"
+
+[deps]
+
+source_file="res://Starter Pack-Realist Sound Bank.23/Alarm(Loopable)/Alarm7.wav"
+dest_files=["res://.godot/imported/Alarm7.wav-5d2f67295c370cffd6db1fd72dde399a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

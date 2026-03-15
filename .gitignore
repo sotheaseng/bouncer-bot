@@ -14,3 +14,7 @@ Thumbs.db
 # Editor settings (optional)
 .vscode/
 .idea/
+
+android/
+
+sothea-release.keystore
